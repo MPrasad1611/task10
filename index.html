@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./Task1.html">
+        <input list="col" name="Color" id="Color">
+    <datalist id="col">
+        <option value="Red">Red</option>
+        <option value="Orange">Orange</option>
+        <option value="Blue">Blue</option>
+    </datalist>
+    <input type="submit"><br><br>
+    <input type="image" height="100" src="./assests/images/KGF1.webp" formaction="./Task1.html">
+</form> 
+<picture>
+    <source media="(min-width:650px)" srcset="./assests/images/hero.png">
+    <source media="(min-width:400px)" srcset="./assests/images/KGF2.webp">
+    <img src="./assests/images/KGF1.webp" height="100">
+</picture>
+<form>
+    <label for="optns">Category</label><br></br>
+   <select name="opt" id="optns" multiple>
+      <option value="Hero">option1</option>       
+      <option value="Heroine">option2</option>   
+      <option value="comedian">option3</option>    
+      <option value="Villain">option4</option>   
+   </select><br></br>
+   <input type="submit">
+</form>
+</body>
+</html>
